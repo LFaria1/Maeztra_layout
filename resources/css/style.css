@@ -1,0 +1,402 @@
+
+/*Fonts*/
+@font-face {
+    font-family: "EA Sports Covers SC Bold";
+      src:  url("EA-Sports-Covers-SC-Bold.ttf.woff") format('woff'),
+      url('\resources\fonts\easports\EA-Sports-Covers-SC-Bold.ttf.svg') format('svg'),
+      url('\resources\fonts\easports\EA-Sports-Covers-SC-Bold.ttf.eot'),
+      url('\resources\fonts\easports\EA-Sports-Covers-SC-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+}
+
+/*General css*/
+.container{
+    max-width:1180px;
+}
+.nav-container-flex{
+    max-height: 90px;
+    letter-spacing: .15em;
+}
+body{
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 12px;
+    white-space:nowrap;
+}
+a{
+    color:inherit;
+}
+
+hr{
+    background-color:#e4e4e4;
+    height:2px;
+    border:none;
+    margin:15px -15px 0 -15px;
+}
+h2{
+    padding-top:10px;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+h3{
+    padding:40px 25px 0 25px;
+    font-size:13px;
+    font-weight: 700;
+    white-space: pre-wrap;
+}
+
+h4{
+    color:white;
+    font-size:13px;
+    padding:2px 5px 3px 5px;
+    margin-bottom:1px;
+    font-weight: 400;
+}
+p{
+    font-size:12px;
+} 
+/*End General css*/
+
+/*nav menu*/
+.first-row{
+max-height: 24px;
+}
+.first-row p{
+    color:white;
+}
+.navbar-toggler{
+    color:white;
+}
+.navbar-collapse{
+    background-color: #333333;
+}
+.container-flex{
+    background-color:#333333;
+}
+.nav-searchbar{
+    max-width:265px;
+}
+.cart-col{
+    margin-right:-20px;
+}
+.navbar{
+height:70px;
+z-index:1000;
+}
+.navbar .col-md-1{
+    margin-left:-15px;
+}
+.nav-item{
+    font-size:14px;    
+    font-weight: 700;
+    color:white;
+}
+.nav-item:hover{
+    margin-bottom:-3px;
+    border-bottom:3px solid;
+    border-color: #de006f;
+}
+.align-right{
+    text-align: right;
+}
+.fa-angle-down{
+    color:#7a7a7a;
+}
+.fa-search{
+    color:white;
+}
+.nav-logo a:hover{
+    text-decoration: none;
+    color:inherit;
+}
+.nav-logo{
+    font-family: "EA Sports Covers SC Bold";
+    font-size:65px;
+    text-align: center;
+    color:#f8595f;
+    margin-bottom:5px;
+
+}
+.nav-logo a{
+    position: absolute;
+    line-height: 65px;
+    bottom:0;
+    right: 0;
+    width:100%;
+}
+
+input[type="text"]{
+    letter-spacing: .1em;
+    border:2px;
+    border-style:none none solid none;
+    color:#999999;
+    font-family: "Lato","FontAwesome";
+    border-radius: 0;
+    padding-bottom: 2px;
+}
+.search-input::placeholder{
+    font-size: 12px;
+    color:white;
+}
+.search-input{
+    background-color: #333333;
+}
+.logo-secondary-color{
+    color:white;
+}
+.cart{
+    color:white;
+    }
+.fa-shopping-cart{
+    color:#f8595f;
+    
+}
+/*End nav menu css*/
+
+/* Showcase css*/
+.showcase div{
+    padding:15px 0 16px 0;
+}
+
+.showcase img{ 
+    width:100%;
+    min-height: 100%;
+}
+
+.products p{
+    font-size:14px;
+    font-weight: 700;
+}
+
+.products button{
+    border-radius:0;
+    font-size: 12px;
+    font-weight: 700;
+    padding:4px 10px 4px 10px;
+    color:#009200;
+    letter-spacing: .2em;
+}
+.products button i{
+    font-size: 18px;
+    padding-right: 5px;
+}
+
+.products .no-gutters{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.old-price{
+    color:#b4b4b4;
+    text-decoration: line-through;
+
+}
+.new-price{
+    color:#f8595f;
+    margin-left:8px;
+}
+
+.bg-black{
+    background-color:black;
+}
+.bg-cerulean{
+    background-color:#0082a7;
+}
+.bg-pink{
+    background-color:#de006f;
+}
+/*end products css*/
+
+/*newsletter css*/
+.newsletter{
+    margin-top:70px;
+    padding-top:10px;
+    padding-bottom:65px;
+}
+.newsletter-fluid{
+    background-color:#e4e4e4;    
+}
+
+.newsletter-input{
+
+    color: #e4e4e4;
+    background-color: #e4e4e4;
+}
+
+.newsletter-form input::placeholder{
+    color: #333333;
+}
+
+.newsletter-form .btn{
+    background-color:#333333;
+    font-size: 14px;
+    font-weight: 700;
+    color:white;
+    border-radius: 0;
+    height: 40px;
+}
+.newsletter-row-right{
+    height:100%;
+    padding-bottom:0;
+}
+.banner{
+    text-align:center;
+    color:white;
+    width:100%;
+    height:220px;
+    line-height: 220px;
+    background-color: #333333;
+}
+
+.icon-container{
+    width:40px;
+    height:40px;
+    border-radius: 100%;
+    background-color:white;
+    margin-right:13px;
+    text-align: center;
+    display: flex;
+}
+.icon-container i{
+    margin: auto;
+    color:#333333;
+}
+/*End newsletter */
+
+/*First footer*/
+.first-footer{
+    background-color:#333333;
+    color:white;
+    min-height:225px;
+    
+}
+.need-help{
+    padding-left:35px;
+}
+.need-help ul{
+    list-style: none;
+}
+.need-help li{
+    margin-bottom:2px;
+}
+
+.need-help a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.customer-service{
+    text-align: right;
+}
+
+.customer-service span{
+    font-size: 20px;
+}
+.customer-service p{
+    white-space: normal;
+    word-break: normal;
+    padding-right: 25px;
+    line-height: 1.25em;
+}
+.second-footer{
+    min-height:100px;
+    background-color:#e4e4e4;
+}
+
+.payment-row div{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 5px;
+}
+.payment-row img{
+    max-height: 60px;
+    max-width:100%;
+}
+
+.third-footer{
+    background-color:white;
+    height:50px;
+}
+.footer-text{
+    color:#b4b4b4;
+    white-space: normal;   
+}
+
+/*Dropdown menu*/
+.dropdown-menu{
+    width:900px;
+    border:2px solid;
+    border-radius: 0;
+    border-color:#de006f;
+    letter-spacing: 0;
+    font-size: 12px;
+}
+.dropdown-item:hover{
+    background-color: #e4e4e4;
+}
+.dropdown-menu img{
+    max-width:100%;
+    height: 100%;
+    max-height: 252px;
+    object-fit: cover;
+}
+.dropdown-menu figcaption{
+    text-align: center;
+}
+/*End dropdown menu*/
+
+/*Responsive adjustment*/
+@media only screen and (min-width:1200px){
+    .newsletter-form .btn{
+        max-width: 145px;
+    }
+}
+@media only screen and (max-width:540px){
+    .need-help{
+        padding-left:0;
+    }
+    .first-footer{
+        text-align: center;
+    }
+    .customer-service{
+        text-align: center;
+    }
+    .customer-service p{
+        padding-right:0;
+    }
+    .newsletter-input{
+        max-width: none;
+    }
+    .first-row{
+        display: none;
+    }
+    .search-btn{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:764px){
+    .form-inline .search-input{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:992px){
+
+    .dropdown-img{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:1200px){
+    .cart p{
+        display: none;        
+    }
+
+}
+/*End responsive adjustment*/
